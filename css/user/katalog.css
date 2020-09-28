@@ -1,0 +1,101 @@
+.full-height{
+}
+.detail-produk, .info-pesan{
+    padding: 3%!important;
+}
+.judulKatalog p{
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+.judul{
+    font-weight: 700;
+    text-align: center;
+
+}
+.preview{
+    text-align: center;
+}
+.preview img{
+    margin-top: 3%;
+    max-width: 100%;
+    max-height: 50%;
+    width: 40%;
+}
+.list-preview{
+    margin-top: 5%;
+    margin-bottom: 1%;
+    display: flex;
+    overflow-x: scroll;
+}
+.list-preview img{
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    max-height: 150px;
+    max-width: 225px;
+}
+.list-preview img:hover{
+    cursor: pointer;
+}
+.harga{
+    margin-top: 3%;
+    padding: 5%;
+}
+.harga h4{
+    color: #08BEED!important;
+    font-weight: 600;
+}
+.deskripsi_barang{
+  font-size: 0.75rem;
+  line-height: 100%;
+
+}
+.deskripsi_barang h6{
+  font-size: 1rem;
+      line-height: 100%;
+      margin: .7666666667rem 0 .46rem 0;
+    }
+.button{
+    background: #F9751E;
+    color: #fff!important;
+    padding: 10px 20px;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    font-weight: 600!important;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    /* border-radius: 15px; */
+}
+.pesan{
+    text-align: center;
+}
+input{
+    outline: none;
+    height: 25px!important;
+    width: 90%!important;
+    border: 1px solid grey!important;
+    padding: 5px 25px 5px 25px!important;
+    border-radius: 10px!important;
+    transition: 0.15s linear!important;
+}
+input:hover, input:focus{
+    border: 1px solid #000!important;
+    box-shadow: 0 0 0 0 #000!important;
+    -webkit-box-shadow: 0 0 0 0 #000!important;
+}
+.submit{
+    margin-top: 5%;
+}
+.totalharga{
+    font-weight: 700;
+}
+b{
+    font-weight: 900;
+}
+@media only screen and (max-width: 600px){
+    input{
+        width: 80%!important;
+    }
+}

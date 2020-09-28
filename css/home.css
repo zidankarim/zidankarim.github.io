@@ -1,0 +1,175 @@
+html, body{
+  overflow-x: hidden;
+}
+.container{
+  width: 90%!important;
+}
+.section-one{
+  background: #fff;
+}
+.section-two{
+  background: #fff;
+  padding: 15px 15px;
+}
+.header{
+  text-align: center;
+}
+.header span{
+  font-weight: 900;
+  font-size: 2.5rem;
+  letter-spacing: 1rem;
+}
+.section-three{
+  /* background: #456990; */
+  background: #08beed;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+.full-height {
+    height: 100vh;
+}
+.some-height{
+  height: 88vh;
+}
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.position-ref {
+    position: relative;
+}
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+.content {
+    text-align: center;
+    width: 100%;
+    height: 90vh;
+    margin-top: 65px;
+}
+.title {
+    font-size: 84px;
+}
+.m-b-md {
+    margin-bottom: 300px;
+}
+.carousel{
+  position: inherit;
+  height: inherit!important;
+}
+.bg-custom{
+  background-color: rgba(255,255,255,0.8);
+}
+nav{
+  transition: 0.3s;
+}
+.mycard{
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 40px 12px -10px rgba(0, 0, 0, 0.05), 0 6px 26px -1px rgba(0, 0, 0, 0.1);
+  height:350px;
+  margin: 5% 1%!important;
+  max-height: 350px!important;
+  padding: 0!important;
+  padding-bottom: 0px!important;
+  padding-top: 0px!important;
+  width: 23%!important;
+}
+.mycard-img{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  max-height: 55%!important;
+  text-align: center;
+}
+.mycard-img img{
+  max-height: 100%!important;
+  max-width: 100%;
+}
+.mycard-category{
+  text-align: justify;
+  display: block;
+}
+.mycard-date{
+  display: block;
+  text-align: right;
+  padding-right: 15px;
+  padding-top: 7px;
+  max-height: 100%!important;
+
+}
+.mycard-title{
+  text-align: justify;
+  margin-bottom: 20px;
+}
+.mycard-title span, .mycard-content span{
+  font-size: 1.3rem;
+  font-weight: 850;
+  letter-spacing: 1px;
+}
+.mycard-title i, .mycard-content i{
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  padding-left:30%;
+
+}
+.mycard-title p, .mycard-content p{
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+.mycard-date p, .mycard-content p{
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+
+}
+.mycard-title, .mycard-content{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: -20px;
+}
+.mycard-content span{
+  font-weight: normal;
+}
+.page{
+  text-align: center;
+}
+.active a{
+  color: #fff!important;
+}
+@media only screen and (max-width: 550px) {
+  .full-height{
+    height: 27vh;
+  }
+  .section-one{
+    margin-top: 0vh;
+  }
+  .carousel-item > img{
+    margin-top: -28vh;
+  }
+  .some-height{
+    height: 30vh!important;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 768px) {
+  .full-height{
+    height: 73vh;
+  }
+  .nvbr{
+    height: 100px;
+  }
+  .carousel-item > img{
+    margin-top: -28vh;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .full-height{
+    height: 100vh;
+  }
+}

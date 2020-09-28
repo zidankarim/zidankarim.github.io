@@ -1,0 +1,117 @@
+@media only screen and (max-width: 600px) {
+  .mycard {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding: 10px 0 !important;
+  }
+
+  .visi, .misi {
+    margin-top : 20px;
+  }
+
+  .foto_bidang {
+    height: 250px;
+  }
+
+  .judulTimeline{
+      font-size: 28px
+  }
+
+  .judulRecentPost{
+      font-size: 25px !important;
+  }
+
+  .judulNews {
+      font-size: 25px !important;
+  }
+
+  .some-height {
+      height: 35vh;
+  }
+
+  .mycard {
+      height: 450px !important;
+  }
+
+  .foto_bidang {
+      height: 35vh;
+  }
+
+  .kabinet h3{
+      font-size: 25px;
+      margin: 15px 0;
+  }
+  .kabinet h4 {
+      font-size: 20px;
+      margin: 10px 0;
+  }
+
+  .kabinet img {
+      width: 100%;
+      height: auto;
+  }
+
+  .bidang div img {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+
+  #penjelasan-visi {
+      margin-bottom: 20px !important;
+      text-align: center;
+  }
+
+  .visi h5 {
+      font-size: 17px
+  }
+
+  #judul-pengurus {
+      font-size: 30px;
+      margin-top: 30px !important;
+  }
+
+  .penjelasan {
+      margin-bottom: 50px;
+  }
+
+  .penjelasan h4{
+      font-size: 20px;
+      margin-bottom: 20px !important;
+      margin-top: 0px !important;
+  }
+
+  #penjelasan-bph {
+      margin-bottom: 40px;
+  }
+}
+
+
+@media only screen and (max-width : 768 px) {
+  .link a {
+    width: 10px;
+  }
+  .mycard {
+    width: 450px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .visi, .misi {
+    margin-top : 20px;
+  }
+
+  .foto_bidang {
+    height: 35vh;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 400px) {
+  .some-height{
+    height: 35vh!important;
+  }
+}

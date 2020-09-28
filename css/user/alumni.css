@@ -1,0 +1,42 @@
+.data {
+  text-align: center;
+  padding :20px 15px;
+}
+.data thead tr{
+  background-color: #E0E0E0  ;
+}
+.data table{
+}
+.judul h3{
+  font-family: 'Arsenal', serif;
+  margin: -15px 20px 10px 20px;
+  text-align: center;
+}
+.judul img{
+  max-width: 100%;
+}
+#alumni{
+  color: #08BEED;
+}
+.button{
+  padding: 10px 20px;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  background: #F9751E;
+  color: #fff!important;
+}
+.btn{
+  margin: 5px 0;
+}
+.btn:hover{
+  color: #fff;
+}
+button.btn{
+  padding: 0 1.5rem;
+}
+@media screen and (max-width:600px) {
+  table.responsive-table{
+    margin-top: 75px;
+  }
+}

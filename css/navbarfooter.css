@@ -1,0 +1,106 @@
+*{
+  font-family: 'Raleway', serif;
+  font-weight: 100;
+  color: #4d4d4d!important;
+}
+
+.brand-logo img{
+  width: 200px;
+}
+
+.active{
+  color: #15a4c8!important;
+}
+
+.navbar-fixed{
+  height: 66px;
+}
+
+nav ul li a:hover{
+  background-color: #fff;
+  color: #15a4c8!important;
+}
+
+nav ul li a{
+  transition: 0.15s;
+}
+
+.nvbr{
+  height: 66px;
+  background: #fff;
+}
+
+.links{
+  display: flex;
+}
+
+.links a {
+  color: #fff!important;
+  height: 50px;
+  width: 50px;
+  padding: 0.4% 0 0 1.65%;
+  /* padding: 10px; */
+  font-size: 28px;
+  margin: 10px;
+
+  border-style: solid;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+.links a:hover {
+  background: rgba(45, 45, 45, 0.7);
+}
+
+.info li{
+  font-size: 17px;
+}
+
+.info li i{
+  margin: 0 15px;
+  color: #fff!important;
+}
+
+.info li span{
+  color: #fff!important;
+}
+
+.page-footer{
+  padding-top: 0;
+  background: #052F5F;
+}
+
+.page-footer .footer-copyright{
+  background: #031D3A;
+}
+
+.maps {
+  width: 820px;
+  height: 450px;
+}
+
+@media screen and (max-width: 599px) {
+  .links a{
+    padding: 0.7% 0 0 2.7%;
+  }
+
+  .maps {
+    width: 100% !important;
+    height: 450px !important;
+  }
+}
+
+@media (min-width:600px) and (max-width: 768px) {
+  .links a{
+    padding: 0.3% 1.4%;
+  }
+
+  .maps {
+    width: 100% !important;
+    height: 450px !important;
+  }
+}
+
+.sidenav li span{
+  padding: 0 32px;
+}

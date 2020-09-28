@@ -1,0 +1,118 @@
+#rowAbout{
+  margin-top: 20px;
+}
+.foto_bidang{
+  overflow: hidden;
+  margin: 0;
+  height: 600px;
+}
+.foto_bidang img{
+  /* width: 100%; */
+  max-width: 100%;
+  /* display: block;
+  margin: 0% 0; */
+  height: 120%;
+}
+.visi h5{
+  font-weight: 100;
+  text-align: left;
+  margin-bottom: 10px;
+
+}
+.visi h6 {
+  margin-bottom: 10px;
+}
+.visi p{
+  font-size: 14px;
+}
+.visi ol li{
+  list-style-type: lower-alpha;
+  margin-left: -20px;
+  margin-top : 5px;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.kabinet{
+  text-align: center;
+}
+.kabinet h3{
+  font-weight: 900;
+}
+.kabinet img{
+  width: 400px;
+  height: 400px;
+}
+
+.bph{
+  margin-top: 25px;
+  text-align: left;
+}
+.bph h4{
+text-align: center;
+}
+.bph img {
+  max-width: 100%;
+
+}
+
+.bph table td{
+ padding :5px;
+}
+.bph table img{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: top center;
+}
+.PSDM {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.PSDM table img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: top center;
+}
+
+.PSDM  img {
+  max-width: 100%;
+}
+.PSDM table{
+  font-size: 12px
+}
+
+.bidang{
+  text-align: center;
+}
+.bidang div img{
+  max-width: 600px;
+  margin-bottom: 200px;
+}
+.bidang div h4{
+  font-weight: 900;
+  margin-bottom: 70px;
+}
+
+#penjelasan-visi {
+    text-align: left;
+}
+#penjelasan-himsi{
+  font-size: 12px;
+}
+#penjelasan-misi{
+  font-size: 14px;
+  text-align: left;
+}
+@media only screen and (max-width: 768px) {
+  .bph img{
+    max-width: 100%;
+  }
+  #penjelasan-visi p{
+      text-align: left;
+}
